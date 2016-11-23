@@ -2,5 +2,5 @@ Pillow>=2.0.0
 html5lib==1.0b8 
 httplib2==0.7.6 
 pyPdf2==1.19 
-reportlab>=3.0 
+reportlab==3.0 
 six 
