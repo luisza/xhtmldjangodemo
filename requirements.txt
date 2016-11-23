@@ -1,1 +1,10 @@
-xhtml2pdf
+Pillow>=2.0.0
+coverage==3.5 
+html5lib==1.0b8 
+httplib2==0.7.6 
+nose==1.3.3 
+pyPdf2==1.19 
+reportlab>=3.0 
+six 
+Sphinx==1.4.8 
+sphinx-rtd-theme==0.1.9
