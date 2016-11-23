@@ -8,8 +8,7 @@ python:
 # command to install dependencies
 install: 
   - pip install django==$DJANGO_VERSION --quiet
-  - pip install -r requirements.txt
-  - pip install xhtml2pdf --quiet
+  - pip install -e git+https://github.com/xhtml2pdf/xhtml2pdf.git#egg=xhtml2pdf
 
 # command to run tests
 script: python manage.py test
